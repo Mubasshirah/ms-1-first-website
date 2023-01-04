@@ -1,0 +1,77 @@
+<html>
+html is an internet language.
+
+most used html tags:
+<a></a>,<p></p>,<h1></h1>-<h6></h6>,<img>,<ul></ul>,<li></li>,<table></table>,<form></form>,<b></b>,<strong></strong><br>,<i></i>,<small></small>,
+
+block element:
+<h1></h1>-<h6></h6>,<p></p>
+
+inline element:
+<img>,<form>,
+
+<b></b>,strong></strong>,<i></i>,<small></small>,<em></em>
+
+semantic tag:meaningful tag like strong,small
+
+html link tag to open in new tab: target="_blank" attribute is to be used.
+ 
+ some container tag:div,form,table
+
+ form:
+{
+
+}
+
+doctype:The declaration is not an HTML tag.The DOCTYPE declaration is an instruction to the web browser about what version of HTML the page is written in. .
+In HTML 5, the declaration is simple:
+
+<!DOCTYPE html>
+
+comment for html: <!---->
+</html>
+
+
+<css>
+
+css:for making website colorful.
+inline,embedded/internal,external
+embedded:
+<style>
+p{
+
+}
+</style>
+inline:
+
+css units: em,rem,vh,vw,%,px
+
+interview qn: css box model:The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.{content,margin,padding,border,height/width}
+
+display: block,inline,inline-block;
+inline element margin left right ney but top bottom nayna. and height width  o nayna.but inline-block element egula nay.
+
+css selector: element,universal,class,id,attribute
+attribute: input[type="text"] {
+  width: 150px;
+  display: block;
+  margin-bottom: 10px;
+  background-color: yellow;
+}
+
+
+</css>
+
+
+
+<github>
+
+
+
+
+</github>
+
+
+
+
+
