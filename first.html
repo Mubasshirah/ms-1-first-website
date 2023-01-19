@@ -1,4 +1,72 @@
-<form action="">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="first.css">
+    <style>
+        label{
+            display: block;
+            margin-bottom: 20px;
+        }
+        form{
+            margin: 0 auto;
+            padding: 30px;
+            width: 80%;
+            
+            box-shadow: 5px 5px 10px  rgb(216, 212, 212);
+        }
+        th,td{
+            border: 1px solid lightgray;
+            padding: 5px 15px;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav >
+            <ul>
+                <li><a href="first.html">home</a>
+                    <ul class="dropdown">
+                        <li><a href="first.html">home</a></li>
+                        <li><a href="">gallery</a>
+                            <ul class="dropdown">
+                                <li><a href="first.html">home</a></li>
+                                <li><a href="">gallery</a></li>
+                                <li><a href="second.html">about</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="second.html">about</a></li>
+                    </ul>
+                </li>
+                <li><a href="">gallery</a></li>
+                <li><a href="second.html">about</a>
+                    <ul class="dropdown">
+                        <li><a href="first.html">home</a></li>
+                        <li><a href="">gallery</a></li>
+                        <li><a href="second.html">about</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+    </header>
+    <form action="">
     <input type="text">
     <input type="email" name="" id="">
     <input type="number" name="" id="">
@@ -20,3 +88,69 @@
     <button>add</button>
 </form>
 <a href="Bio data - Adiba N.pdf" download="bio of adiba">biodata</a>
+<br>
+<br>
+
+<form action="">
+<label for="name">Your name
+    <input type="text" name="name" id="name" placeholder="input your name">
+</label>
+<label for="email">Your email
+    <input type="email" name="email" id="email" placeholder="input your email">
+</label>
+<label for="number">Your number
+    <input type="number" name="number" id="number" placeholder="input your number">
+</label>
+<fieldset>
+    <legend>
+        pick a course
+    </legend>
+   <label for="course"><input type="radio" name="course" id="html" >html</label>
+   <label for="course"><input type="radio" name="course" id="html" >html</label>
+   <label for="course"><input type="radio" name="course" id="html" >html</label>
+</fieldset>
+
+</form>
+<table>
+   <thead>
+    <tr>       
+         <th>hello</th>
+        <th>hello</th>
+        <th>hello</th>
+        <th>hello</th>
+    </tr>
+   </thead>
+   <tbody>
+    <tr>
+        <td>hello</td>
+        <td>hello</td>
+        <td>hello</td>
+        <td>hello</td>
+    </tr>
+    <tr>
+        <td>hello</td>
+        <td>hello</td>
+        <td>hello</td>
+        <td>hello</td>
+    </tr>
+    <tr>
+        <td>hello</td>
+        <td>hello</td>
+        <td>hello</td>
+        <td>hello</td>
+    </tr>
+    <tr>
+        <td>hello</td>
+        <td>hello</td>
+        <td>hello</td>
+        <td>hello</td>
+    </tr>
+   </tbody>
+</table>
+<!-- z-index -->
+<div class="one"></div>
+<div class="two"></div>
+<div class="three"></div>
+
+</body>
+</html>

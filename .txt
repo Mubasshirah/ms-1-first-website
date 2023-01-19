@@ -22,6 +22,15 @@ html link tag to open in new tab: target="_blank" attribute is to be used.
 {
 
 }
+table:colspan,rowspan(advance),The <caption> tag defines a table caption.
+{
+
+}
+nav:
+{
+
+}
+*flex parent e dite hoa inline child e dite hoa.
 
 doctype:The declaration is not an HTML tag.The DOCTYPE declaration is an instruction to the web browser about what version of HTML the page is written in. .
 In HTML 5, the declaration is simple:
@@ -31,6 +40,31 @@ In HTML 5, the declaration is simple:
 comment for html: <!---->
 </html>
 
+
+<html5>
+
+header,footer,audio,video,nav,section
+
+video and audio tag e controls use korte hbe play korar jnno
+youtube er video chalaite <iframe> tag use korte hoa.
+
+iframe:An inline frame (iframe) is a HTML element that loads another HTML page within the document. It essentially puts another webpage within the parent page. They are commonly used for advertisements, embedded videos, web analytics and interactive content.
+
+semantic tags:
+<header>
+<nav>
+</nav>
+</header>
+<main>
+<section></section>
+<section></section>
+<section></section>
+</main>
+<footer>
+</footer>
+
+
+</html5>
 
 <css>
 
@@ -59,6 +93,26 @@ attribute: input[type="text"] {
   background-color: yellow;
 }
 
+Assignment: linear gradiant:
+background-image:
+    linear-gradient(to right, rgba(255, 68, 0, 0.925),rgba(255, 255, 255, 0.192)),
+    url('../images/watch.png');
+
+   
+pseudo class: hover,focus,visited,
+first-child,last-child,nth-child(2n),nth-child(2n+1)
+
+pseudo element: ::before,::after
+
+position:relative,absolute,sticky,fixed,z-index
+z-index:more than one relative thkle z-index use kortehoa.
+<z-index>
+{
+
+}
+</z-index>
+
+
 
 </css>
 
@@ -66,7 +120,7 @@ attribute: input[type="text"] {
 
 <github>
 
-
+GitHub is an Internet hosting service
 
 
 </github>
